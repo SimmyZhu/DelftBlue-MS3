@@ -22,19 +22,29 @@ More login methods are provided [here](https://doc.dhpc.tudelft.nl/delftblue/Rem
 More Git commands can be found [here](https://www.cloudways.com/blog/git-cheat-sheet/?id=290872&gclid=CjwKCAjwpKyYBhB7EiwAU2Hn2Q00h2xPIx9Dq9cZ2A2HyAgo0vVBRoQdeBgbxls7I9PRXj46kY0iMhoCGSAQAvD_BwE)
 
 ### Data transfer
-1. To transfer a single file from your network drive to your project directory, e.g., type 'rsync -av /tudelft.net/staff-groups/ewi/me/MS3/MS3-Shared/RadarScenes/RadarScenes/RadarScenes/data/sequence_101/camera/22549784615285.jpg ~/DelftBlue-MS3/'
+To transfer a single file from your network drive to your project directory:
+1.  Type 'rsync -av /tudelft.net/staff-groups/ewi/me/MS3/MS3-Shared/RadarScenes/RadarScenes/RadarScenes/data/sequence_101/camera/22549784615285.jpg ~/DelftBlue-MS3/'
+2. Type 'cd ~/DelftBlue-MS3/'
+3. Type 'ls' and you will see the image '22549784615285.jpg' being transfered into your project directory.
 
 More data transfer methods can be found [here](https://doc.dhpc.tudelft.nl/delftblue/Data-transfer-to-DelftBlue/)
 
 ### MATLAB: a simple example
 1. Type 'cd ~/DelftBlue-MS3/MATLAB/'.
-2. sss
+2. To run the example code, type 'sbatch matlab.sh'.
+3. Check the status of your submitted job, type 'squeue'.
+4. After the job is finished, you should see stored figure 'example.fig' and log 'slurm-your_job_id.out' via typing 'ls'.
+5.  Type 'vi slurm-your_job_id.out' to check any printouts.
+6. Try to reverse step #1 of Data Transfer to transfer the stored figure and log back to your network drive.
 
 More MATLAB examples can be found [here](https://doc.dhpc.tudelft.nl/delftblue/howtos/matlab/)
 
 ### Python: a simple example
 1. Type 'cd ~/DelftBlue-MS3/Python/'.
-2. sss
+2. To run the example code, type 'sbatch python.sh'.
+3. Check the status of your submitted job, type 'squeue'.
+4. After the job is finished, you should see stored figure 'example.png' and log 'slurm-your_job_id.out' via typing 'ls'.
+5. Type 'vi slurm-your_job_id.out' to check any printouts.
 
 More Python examples can be found [here](https://doc.dhpc.tudelft.nl/delftblue/Python/)
 
