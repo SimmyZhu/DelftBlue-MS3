@@ -8,6 +8,8 @@
 #SBATCH --mem-per-cpu=16G
 #SBATCH --account=research-eemcs-me
 
+module load 2022r2
+module load python
+module load py-matplotlib
 
-
-srun /home/szhu2/instantaneous_ro_venv/bin/python /home/szhu2/Instantaneous_RO/utils/Inst_ro_data_gen.py
+srun python ~/DelftBlue-MS3/Python/examplecode.py
