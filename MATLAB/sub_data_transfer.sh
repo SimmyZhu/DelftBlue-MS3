@@ -7,5 +7,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --account=research-eemcs-me
 
-rsync -av /scratch/szhu2/Dataset/RadarScenes/RadarScenes/RadarScenes/Inst_ro_data/radar_1/sequence_1/x.npy D:\\Download
+rsync -av /tudelft.net/staff-groups/ewi/me/MS3/MS3-Shared/RadarScenes/RadarScenes/RadarScenes/data/sequence_101/camera /home/szhu2/DelftBlue-MS3/MATLAB
 
