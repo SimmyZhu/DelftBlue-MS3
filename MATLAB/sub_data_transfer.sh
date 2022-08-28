@@ -7,5 +7,5 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --account=research-eemcs-me
 
-rsync -av /tudelft.net/staff-groups/ewi/me/MS3/MS3-Shared/RadarScenes/RadarScenes/RadarScenes/data/sequence_101/camera /home/szhu2/DelftBlue-MS3/MATLAB
+rsync -av /tudelft.net/staff-groups/ewi/me/MS3/MS3-Shared/RadarScenes/RadarScenes/RadarScenes/data/sequence_101/camera/22549784615285.jpg /home/szhu2/DelftBlue-MS3/MATLAB
 
