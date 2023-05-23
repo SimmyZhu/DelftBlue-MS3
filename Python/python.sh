@@ -6,7 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=16G
-#SBATCH --account=research-eemcs-me
+#SBATCH --account=education-eemcs-courses-ee4675
 
 module load 2022r2
 module load python
